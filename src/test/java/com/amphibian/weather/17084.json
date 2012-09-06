@@ -1,0 +1,107 @@
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"alerts": 1
+		,
+		"conditions": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Reedsville, PA",
+		"city":"Reedsville",
+		"state":"PA",
+		"state_name":"Pennsylvania",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"17084",
+		"latitude":"40.67802811",
+		"longitude":"-77.60456085",
+		"elevation":"226.00000000"
+		},
+		"observation_location": {
+		"full":"South Side, Lewistown, Pennsylvania",
+		"city":"South Side, Lewistown",
+		"state":"Pennsylvania",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.592285",
+		"longitude":"-77.571823",
+		"elevation":"486 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KPALEWIS6",
+		"observation_time":"Last Updated on August 11, 10:54 PM EDT",
+		"observation_time_rfc822":"Sat, 11 Aug 2012 22:54:26 -0400",
+		"observation_epoch":"1344740066",
+		"local_time_rfc822":"Sat, 11 Aug 2012 22:54:30 -0400",
+		"local_epoch":"1344740070",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Clear",
+		"temperature_string":"66.6 F (19.2 C)",
+		"temp_f":66.6,
+		"temp_c":19.2,
+		"relative_humidity":"75%",
+		"wind_string":"Calm",
+		"wind_dir":"North",
+		"wind_degrees":0,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0.0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1015",
+		"pressure_in":"29.97",
+		"pressure_trend":"+",
+		"dewpoint_string":"58 F (15 C)",
+		"dewpoint_f":58,
+		"dewpoint_c":15,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"66.6 F (19.2 C)",
+		"feelslike_f":"66.6",
+		"feelslike_c":"19.2",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/PA/Reedsville.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KPALEWIS6",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.592285,-77.571823"
+	}
+		,
+	"alerts": [
+{
+  "type": "HEA",
+  "description": "Heat Advisory",
+  "date": "11:14 am CDT on July 3, 2012",
+  "date_epoch": "1341332040",
+  "expires": "7:00 AM CDT on July 07, 2012",
+  "expires_epoch": "1341662400",
+  "message": "there is some bad weather coming!",
+  "phenomena": "HT",
+  "significance": "Y"
+}
+	]
+}

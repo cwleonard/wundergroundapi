@@ -1,0 +1,11 @@
+{
+  "type": "HEA",
+  "description": "Heat Advisory",
+  "date": "11:14 am CDT on July 3, 2012",
+  "date_epoch": "1341332040",
+  "expires": "7:00 AM CDT on July 07, 2012",
+  "expires_epoch": "1341662400",
+  "message": "there is some bad weather coming!",
+  "phenomena": "HT",
+  "significance": "Y"
+}

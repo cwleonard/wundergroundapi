@@ -1,0 +1,473 @@
+{
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"conditions": 1
+		,
+		"forecast": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Port Royal, PA",
+		"city":"Port Royal",
+		"state":"PA",
+		"state_name":"Pennsylvania",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"17082",
+		"latitude":"40.52088165",
+		"longitude":"-77.41439819",
+		"elevation":"155.00000000"
+		},
+		"observation_location": {
+		"full":"APRSWXNET Mifflintown PA US, Mifflin, Pennsylvania",
+		"city":"APRSWXNET Mifflintown PA US, Mifflin",
+		"state":"Pennsylvania",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"40.601002",
+		"longitude":"-77.401833",
+		"elevation":"580 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"MD1818",
+		"observation_time":"Last Updated on August 11, 10:48 AM EDT",
+		"observation_time_rfc822":"Sat, 11 Aug 2012 10:48:00 -0400",
+		"observation_epoch":"1344696480",
+		"local_time_rfc822":"Sat, 11 Aug 2012 11:13:19 -0400",
+		"local_epoch":"1344697999",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Scattered Clouds",
+		"temperature_string":"75 F (23.9 C)",
+		"temp_f":75,
+		"temp_c":23.9,
+		"relative_humidity":"63%",
+		"wind_string":"From the WSW at 14 MPH",
+		"wind_dir":"WSW",
+		"wind_degrees":245,
+		"wind_mph":14,
+		"wind_gust_mph":0,
+		"wind_kph":22.5,
+		"wind_gust_kph":0,
+		"pressure_mb":"1012",
+		"pressure_in":"29.90",
+		"pressure_trend":"+",
+		"dewpoint_string":"62 F (17 C)",
+		"dewpoint_f":62,
+		"dewpoint_c":17,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"75 F (23.9 C)",
+		"feelslike_f":"75",
+		"feelslike_c":"23.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"6",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"-25375",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/PA/Port_Royal.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=MD1818",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.601002,-77.401833"
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"11:00 AM EDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Mostly cloudy with rain showers in the morning, then partly cloudy. High of 77F. Winds from the WSW at 5 to 15 mph.",
+		"fcttext_metric":"Partly cloudy with rain showers. High of 25C. Breezy. Winds from the WSW at 10 to 20 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Partly cloudy. Low of 61F. Winds from the West at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. Low of 16C. Winds from the West at 5 to 10 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Partly cloudy. High of 79F. Winds from the West at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. High of 26C. Winds from the West at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":3,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Clear in the evening, then partly cloudy. Low of 59F. Winds less than 5 mph.",
+		"fcttext_metric":"Clear in the evening, then partly cloudy. Low of 15C. Winds less than 5 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy. High of 84F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. High of 29C. Winds less than 5 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Partly cloudy in the evening, then clear. Low of 61F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy in the evening, then clear. Low of 16C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Tuesday",
+		"fcttext":"Partly cloudy with a chance of a thunderstorm and rain in the afternoon. High of 82F. Winds from the SSE at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Partly cloudy with a chance of a thunderstorm and rain in the afternoon. High of 28C. Winds from the SSE at 5 to 20 km/h. Chance of rain 40% with rainfall amounts near 3.8 mm possible.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":7,
+		"icon":"chancetstorms",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancetstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy with a chance of a thunderstorm and rain. Fog overnight. Low of 63F. Winds from the WSW at 5 to 10 mph. Chance of rain 50% with rainfall amounts near 0.2 in. possible.",
+		"fcttext_metric":"Partly cloudy with a chance of a thunderstorm and rain. Fog overnight. Low of 17C. Winds from the WSW at 5 to 10 km/h. Chance of rain 50% with rainfall amounts near 5.3 mm possible.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1344740400",
+	"pretty":"11:00 PM EDT on August 11, 2012",
+	"day":11,
+	"month":8,
+	"year":2012,
+	"yday":223,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"77",
+		"celsius":"25"
+		},
+		"low": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SW",
+		"degrees": 230
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "WSW",
+		"degrees": 241
+		},
+		"avehumidity": 68,
+		"maxhumidity": 97,
+		"minhumidity": 47
+		}
+		,
+		{"date":{
+	"epoch":"1344826800",
+	"pretty":"11:00 PM EDT on August 12, 2012",
+	"day":12,
+	"month":8,
+	"year":2012,
+	"yday":224,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"79",
+		"celsius":"26"
+		},
+		"low": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "West",
+		"degrees": 260
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "West",
+		"degrees": 264
+		},
+		"avehumidity": 72,
+		"maxhumidity": 89,
+		"minhumidity": 52
+		}
+		,
+		{"date":{
+	"epoch":"1344913200",
+	"pretty":"11:00 PM EDT on August 13, 2012",
+	"day":13,
+	"month":8,
+	"year":2012,
+	"yday":225,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"84",
+		"celsius":"29"
+		},
+		"low": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "WSW",
+		"degrees": 240
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "SW",
+		"degrees": 233
+		},
+		"avehumidity": 59,
+		"maxhumidity": 90,
+		"minhumidity": 43
+		}
+		,
+		{"date":{
+	"epoch":"1344999600",
+	"pretty":"11:00 PM EDT on August 14, 2012",
+	"day":14,
+	"month":8,
+	"year":2012,
+	"yday":226,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"August",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EDT",
+	"tz_long":"America/New_York"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"82",
+		"celsius":"28"
+		},
+		"low": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"conditions":"Chance of a Thunderstorm",
+		"icon":"chancetstorms",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancetstorms.gif",
+		"skyicon":"partlycloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.36,
+		"mm": 9.1
+		},
+		"qpf_day": {
+		"in": 0.15,
+		"mm": 3.8
+		},
+		"qpf_night": {
+		"in": 0.21,
+		"mm": 5.3
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "South",
+		"degrees": 173
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "SSE",
+		"degrees": 162
+		},
+		"avehumidity": 77,
+		"maxhumidity": 100,
+		"minhumidity": 52
+		}
+		]
+		}
+	}
