@@ -34,6 +34,14 @@ public class Forecast {
 	}
 	
 	/**
+	 * The forecast days to be set
+	 * @param days
+	 */
+	public void setDays(List<ForecastDay> days) {
+		this.days = days;
+	}
+
+	/**
 	 * This is used when the response is XML format. For whatever reason,
 	 * wunderground.com gives the XML forecastday tags wrapped with a forecastdays
 	 * object but the JSON version is just an array of forecastday objects.
